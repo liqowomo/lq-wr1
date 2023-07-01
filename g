@@ -1,1 +1,1 @@
-sn/g.sh
+lq/g.sh
