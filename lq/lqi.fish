@@ -1,5 +1,5 @@
 #!/bin/fish 
-/workspace/sn-gentest-1/sn/pnp.fish
-/workspace/sn-gentest-1/sn/fixrs.fish
-/workspace/sn-gentest-1/sn/st.sh
+/workspaces/l1-wr1/sn/pnp.fish
+/workspaces/l1-wr1/sn/fixrs.fish
+/workspaces/l1-wr1/sn/st.sh
 
