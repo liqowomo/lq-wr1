@@ -7,11 +7,13 @@ export default function Home() {
 			<h1 className="text-8xl font-extrabold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent text-center animate-text">
 				Welcome Page
 			</h1>
-			<div>
-				<button className="btn btn-wide">
-					<SignInButton mode="modal" />
+
+			<SignInButton mode="modal">
+				<button className="btn btn-wide" data-theme="synthwave">
+					Sign in
 				</button>
-			</div>
+			</SignInButton>
+
 			<div>
 				<UserButton afterSignOutUrl="/" />
 			</div>
