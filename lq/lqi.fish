@@ -1,5 +1,5 @@
 #!/bin/fish 
-/workspaces/l1-wr1/sn/pnp.fish
-/workspaces/l1-wr1/sn/fixrs.fish
-/workspaces/l1-wr1/sn/st.sh
+/workspaces/lq-wr1/lq/pnp.fish
+/workspaces/lq-wr1/lq/fixrs.fish
+/workspaces/lq-wr1/lq/st.sh
 
