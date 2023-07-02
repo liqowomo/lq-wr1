@@ -49,6 +49,13 @@ function wdv
     echo (set_color FF6D28)""
     echo (set_color FF6D28)" Changin Directory..."
     cd $dir && ls -al 
+    echo (set_color F637EC)""
+    echo (set_color F637EC)""
+    echo (set_color F637EC)""
+    echo (set_color F637EC)"▀█▀ ▄▀█ █ █   █ █ █ █ █▄ █ █▀▄ ▄▄ █▀█ █▀█ █▀▀ ▀█▀ ▀█▀ █ █▀▀ █▀█ ▄▄ █ █ █▀▀ █▀▀ █▀█ █▀▄ █▀▀"
+    echo (set_color F637EC)" █  █▀█ █ █▄▄ ▀▄▀▄▀ █ █ ▀█ █▄▀    █▀▀ █▀▄ ██▄  █   █  █ ██▄ █▀▄    ▀▄▀ ▄▄█ █▄▄ █▄█ █▄▀ ██▄"
+    echo (set_color F637EC)""
+    echo (set_color F637EC)""
     echo (set_color F637EC)"=> STARTING....B>pnpm i -D prettier prettier-plugin-tailwindcss"
     pnpm i -D prettier prettier-plugin-tailwindcss 
     echo (set_color F637EC)"DONE! - DONE!- DONE! - DONE!"
