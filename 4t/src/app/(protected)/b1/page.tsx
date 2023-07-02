@@ -1,6 +1,6 @@
 import Txa from '@/app/components/txa'
+import {UserButton} from '@clerk/nextjs'
 import {Dancing_Script} from 'next/font/google'
-
 
 const dan = Dancing_Script({subsets: ['latin']})
 
@@ -23,6 +23,7 @@ export default function page() {
 				</video>
 			</section>
 			<section className="flex min-h-screen flex-col items-center justify-around p-24">
+				<UserButton afterSignOutUrl="/" />
 				<h1 className="text-6xl text-center">Logged in Dawg</h1>
 				<div>
 					<Txa />

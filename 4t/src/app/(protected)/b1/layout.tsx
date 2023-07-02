@@ -9,9 +9,5 @@ export const metadata = {
 }
 
 export default function b1Layout({children}: {children: React.ReactNode}) {
-	return (
-		<ClerkProvider>
-			<section>{children}</section>
-		</ClerkProvider>
-	)
+	return <section>{children}</section>
 }
