@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import {UserButton} from '@clerk/nextjs'
+import {SignInButton} from '@clerk/nextjs'
 
 export default function Home() {
 	return (
@@ -15,6 +17,12 @@ export default function Home() {
 					Now
 				</h1>
 			</section>
+			<SignInButton>
+				<div>
+					<button className="btn btn-wide">Wide</button>
+				</div>
+			</SignInButton>
+			<UserButton afterSignOutUrl="/" />
 		</main>
 	)
 }
