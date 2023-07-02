@@ -1,0 +1,14 @@
+{
+  "getting-started": "Getting Started",
+  "migration-guide": "Migration Guide",
+  "typescript": "TypeScript",
+  "config": "createConfig",
+  "chains": "Chains",
+  "providers": "Providers",
+  "connectors": "Connectors",
+  "actions": "Actions",
+  "constants": "Constants",
+  "ethers-adapters": "Ethers.js Adapters",
+  "module-types": "Module Types",
+  "faq": "FAQ"
+}
