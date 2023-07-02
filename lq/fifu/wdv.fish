@@ -75,11 +75,13 @@ function wdv
     echo (set_color B983FF)"DONE! - DONE!- DONE! - DONE!"
     echo ""
     echo ""
+    echo (set_color FCAEAE)"█▀▀ █   █▀▀ █▀█ █▄▀"
+    echo (set_color FCAEAE)"█▄▄ █▄▄ ██▄ █▀▄ █ █"
     echo ""
     echo ""
-    echo (set_color B983FF)"=> Starting...pnpm i @clerk/nextjs"
+    echo (set_color FCAEAE)"=> Starting...pnpm i @clerk/nextjs"
     pnpm i @clerk/nextjs
-    echo (set_color B983FF)"DONE! - DONE!- DONE! - DONE!"
+    echo (set_color FCAEAE)"DONE! - DONE!- DONE! - DONE!"
     echo ""
     echo " ALL INSTALLATIONS SUCCESSFUL"
     cat -n package.json
