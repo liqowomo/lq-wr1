@@ -1,19 +1,24 @@
+import Link from 'next/link'
+
 export default function Txa() {
 	return (
-		<section data-theme="luxury" className="flex flex-col items-center gap-5">
+		<section data-theme="luxury" className="flex-col flex items-center gap-5">
+			<Link href="/">
+				<button className="btn glass">Glass button</button>
+			</Link>
 			<textarea
 				placeholder="Bio"
 				className="textarea textarea-bordered textarea-lg w-full max-w-2xl"
 			></textarea>
 			<ul className="menu bg-base-200 w-56 rounded-box">
 				<li>
-					<a>Item 1</a>
+					<a>LickArmpits</a>
 				</li>
 				<li>
-					<a>Item 2</a>
+					<a>SniffFart</a>
 				</li>
 				<li>
-					<a>Item 3</a>
+					<a>DrinkGolden</a>
 				</li>
 			</ul>
 			<div className="mockup-window border bg-base-300">
