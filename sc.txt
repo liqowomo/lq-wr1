@@ -1,1 +1,28 @@
 kractc
+
+ssh-keygen -t ed25519
+
+ssh-keygen -t ed25519
+
+ssh-keygen -t ed25519
+
+The permission 600 is a numeric representation of the file permissions in Unix-like systems. Each digit in the numeric representation represents a different set of permissions: the first digit represents the owner's permissions, the second digit represents the group's permissions, and the third digit represents others' (everyone else's) permissions.
+
+In the case of 600, the permissions are as follows:
+
+The owner of the file has read and write permissions (6):
+
+4 represents read permission, allowing the owner to view the contents of the file.
+
+2 represents write permission, allowing the owner to modify or delete the file.
+
+The group and others have no permissions (0):
+
+0 represents no permission, meaning that neither the group nor others can read, write, or execute the file.
+
+So, when you set the permission of a file to 600, only the owner of the file has read and write access to it, while the group and others have no access at all.
+
+This level of permission is useful for sensitive files, such as SSH private keys, as it ensures that only the owner can read and modify the file, providing a higher level of security.
+
+
+
