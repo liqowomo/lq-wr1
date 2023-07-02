@@ -18,7 +18,7 @@ function wdv
     echo (set_color 16FF00)" B> pnpm i -D prettier prettier-plugin-tailwindcss"
     echo (set_color 16FF00)" C> pnpm i tailwindcss-animated"
     echo (set_color 16FF00)" D> pnpm i -D daisyui@latest"
-    echo (set_color 16FF00)" E> pnpm i @clerk/nextjs
+    echo (set_color 16FF00)" E> pnpm i @clerk/nextjs"
     echo ""
     echo ""
     echo (set_color B3FFAE)"++++++++++++++++++++++++++++++++++++"
@@ -70,3 +70,4 @@ function wdv
     ls -al 
     pnpm run dev --turbo
 end
+
