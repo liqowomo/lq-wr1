@@ -1,4 +1,4 @@
-import {ClerkProvider} from '@clerk/nextjs'
+import {ClerkProvider, SignedIn, SignedOut} from '@clerk/nextjs'
 import './globals.css'
 import {Inter} from 'next/font/google'
 
