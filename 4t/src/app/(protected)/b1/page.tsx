@@ -1,6 +1,7 @@
 import Txa from '@/app/components/txa'
 import {Dancing_Script} from 'next/font/google'
 
+
 const dan = Dancing_Script({subsets: ['latin']})
 
 export default function page() {

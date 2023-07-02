@@ -1,3 +1,4 @@
+import {ClerkProvider} from '@clerk/nextjs'
 import {Inter} from 'next/font/google'
 
 const inter = Inter({subsets: ['latin']})
@@ -8,5 +9,9 @@ export const metadata = {
 }
 
 export default function b1Layout({children}: {children: React.ReactNode}) {
-	return <section>{children}</section>
+	return (
+		<ClerkProvider>
+			<section>{children}</section>
+		</ClerkProvider>
+	)
 }
