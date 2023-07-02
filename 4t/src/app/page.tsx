@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Sigb from './components/sigb'
 import {SignInButton} from '@clerk/nextjs'
+import {auth} from '@clerk/nextjs'
 
 export default function Home() {
 	return (
