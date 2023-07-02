@@ -17,10 +17,8 @@ export default function Page() {
 						type="video/mp4"
 					/>
 				</video>
-			</section>
-			<div className="flex min-h-screen flex-col items-center justify-center p-4">
 				<SignIn />
-			</div>
+			</section>
 		</section>
 	)
 }
