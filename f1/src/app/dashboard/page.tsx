@@ -1,3 +1,5 @@
+import {UserButton} from '@clerk/nextjs'
+
 export default function page() {
 	return (
 		<section>
@@ -16,6 +18,9 @@ export default function page() {
 					/>
 				</video>
 			</section>
+			<div>
+				<UserButton />
+			</div>
 		</section>
 	)
 }
