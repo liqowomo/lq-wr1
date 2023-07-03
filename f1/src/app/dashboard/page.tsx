@@ -1,3 +1,4 @@
+import Tdo from '@/components/tdo'
 import {UserButton} from '@clerk/nextjs'
 
 export default function page() {
@@ -18,9 +19,16 @@ export default function page() {
 					/>
 				</video>
 			</section>
-			<div>
-				<UserButton />
-			</div>
+			<UserButton />
+			<section className="flex flex-col text-center items-center justify-center h-min">
+				<h1 className="text-4xl font-extrabold text-red-600">
+					{' '}
+					Sniff and Lick Booty{' '}
+				</h1>
+				<Tdo />
+			</section>
+			<div></div>
+			<div></div>
 		</section>
 	)
 }
