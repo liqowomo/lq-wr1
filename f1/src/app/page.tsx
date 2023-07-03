@@ -1,3 +1,4 @@
+import Compo from '@/components/compo'
 import Image from 'next/image'
 
 export default function Home() {
@@ -18,15 +19,9 @@ export default function Home() {
 					/>
 				</video>
 			</section>
-			<section
-				id="body"
-				className="flex min-h-screen flex-col items-center justify-around p-24"
-			>
-				<h1 className="text-6xl font-extrabold bg-clip-text text-transparent bg-[url('https://media.giphy.com/media/SYrMAmJZT4YcU/giphy.gif')] hover:animate-rotate-y animate-infinite animate-duration-[15000ms] text-center">
-					ClerkDev E2E Test
-				</h1>
-				<h2>Click fkn button to loginza</h2>
-			</section>
+			<div>
+				<Compo />
+			</div>
 		</main>
 	)
 }
