@@ -1,3 +1,7 @@
+'use client'
+
+import Link from 'next/link'
+
 export default function Compo() {
 	return (
 		<section>
@@ -17,11 +21,13 @@ export default function Compo() {
 							</h1>
 						</section>
 						<p className="mb-5">Click Button Below</p>
-						<button className="btn btn-glass bg-[url('https://media.giphy.com/media/eVSqI3mZYfaDIXYsnS/giphy.gif')] bg-opacity-25 btn-wide  animate-text">
-							<h2 className="text-2xl font-extrabold hover:animate-pulse">
-								Login
-							</h2>
-						</button>
+						<Link href="/sign-in">
+							<button className="btn btn-glass bg-[url('https://media.giphy.com/media/eVSqI3mZYfaDIXYsnS/giphy.gif')] hover:animate-pulse btn-wide  animate-text">
+								<h2 className="text-2xl font-extrabold text-rose-500 ">
+									Login
+								</h2>
+							</button>
+						</Link>
 					</div>
 				</div>
 			</div>

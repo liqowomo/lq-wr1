@@ -1,5 +1,26 @@
 import {SignIn} from '@clerk/nextjs'
 
 export default function Page() {
-	return <SignIn />
+	return (
+		<section>
+			<section id="bganimation">
+				<video
+					muted
+					autoPlay
+					loop
+					playsInline
+					disablePictureInPicture
+					className="absolute h-full w-full object-cover -z-10 blur-lg brightness-50"
+				>
+					<source
+						src="https://media.giphy.com/media/10ppffwhOftLy0/giphy.mp4"
+						type="video/mp4"
+					/>
+				</video>
+			</section>
+			<section className="flex flex-col items-center justify-center h-screen">
+				<SignIn />
+			</section>
+		</section>
+	)
 }
