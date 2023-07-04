@@ -3,10 +3,10 @@ name: Lick HerCunnny
 on:
   push:
     branches:
-      - main
+      - w
   pull_request:
     branches:
-      - main
+      - w
 
 jobs:
   lint:
