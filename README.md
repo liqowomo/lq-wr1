@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/zVQqKtX/29530870.webp" align=right width=200>
+<img src="/lq/3.webp" align=right width=200>
 
 <h1 align=center><code> Branch T </code></h1>
 <h3 align=center><i> Actual tutorials here </i></h3>
