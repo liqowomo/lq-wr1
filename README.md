@@ -6,13 +6,23 @@
 ---
 
 1. [W ?](#w-)
-2. [DG - Tut](#dg---tut)
+2. [NextAuth-Booty](#nextauth-booty)
+   1. [Installation Commands](#installation-commands)
+3. [DG - Tut](#dg---tut)
 
 ---
 
 # W ?
 
 > Will have actual tutorials , combo all dat tings
+
+# NextAuth-Booty
+
+## Installation Commands 
+
+```sh 
+pnpm add next-auth
+```
 
 # DG - Tut
 
