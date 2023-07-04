@@ -19,7 +19,7 @@ export const options: NextAuthOptions = {
 				// to verify the credentials
 				const user = {id: '69', name: 'BootyAddict', password: 'z'}
 
-				if (
+				if ( 
 					credentials?.username === user.name &&
 					credentials?.password === user.password
 				) {
