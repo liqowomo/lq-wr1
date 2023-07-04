@@ -1,3 +1,4 @@
+import {User} from '@/components/getUser'
 import Tdo from '@/components/tdo'
 import {UserButton} from '@clerk/nextjs'
 
@@ -23,8 +24,9 @@ export default function page() {
 			<section className="flex flex-col text-center items-center justify-center h-min">
 				<h1 className="text-4xl font-extrabold text-red-600">
 					{' '}
-					Sniff and Lick Booty{' '}
+					Sniff and Lick Booty
 				</h1>
+				<User />
 				<Tdo />
 			</section>
 			<div></div>
