@@ -1,1 +1,6 @@
+Syntax for generating this 
+
+openssl rand -base64 32 
+
+---
 OOu3bebrtIXv3L26ClUrwYaD8dOeP+IiQ9j1e0GIoco=
