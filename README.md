@@ -1,6 +1,6 @@
 <img src="/lq/3.webp" align=right width=200>
 
-<h1 align=center><code> Branch T </code></h1>
+<h1 align=center><code> W </code></h1>
 <h3 align=center><i> Actual tutorials here </i></h3>
 
 ---
@@ -18,13 +18,14 @@
 
 # NextAuth-Booty
 
-## Installation Commands 
+## Installation Commands
 
-```sh 
+```sh
 pnpm add next-auth
 ```
 
 # DG - Tut
 
 [`DG Next-Auth Login Tuto`](https://youtu.be/w2h54xz6Ndw)
+
 - dirs with prefix `dgna`
