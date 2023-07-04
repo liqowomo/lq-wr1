@@ -17,5 +17,4 @@
 # DG - Tut
 
 [`DG Next-Auth Login Tuto`](https://youtu.be/w2h54xz6Ndw)
-
-- dirs with prefix
+- dirs with prefix `dgna`
