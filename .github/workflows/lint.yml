@@ -19,9 +19,12 @@ jobs:
 
       - name: Install pnpm
         run: npm install -g pnpm
+        working-directory: dgna/
 
       - name: Install dependencies
         run: pnpm install
+        working-directory: dgna/
 
       - name: Run ESLint
         run: pnpm run lint
+        working-directory: dgna/
