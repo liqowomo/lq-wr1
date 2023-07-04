@@ -12,7 +12,7 @@ export const options: NextAuthOptions = {
 			name: 'Credentials',
 			credentials: {
 				username: {label: 'Username', type: 'text', placeholder: 'nameBastard'},
-				password: {label: 'Password', type: 'password'},
+				password: {label: 'Password:', type: 'password', placeholder: 'fucker'},
 			},
 			async authorize(credentials) {
 				// This is where you need to retrieve the user from your database
